@@ -1,0 +1,37 @@
+
+@import url('../assets/variables/variables.css');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header div{
+   
+    color: var(--color-prune);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.home{
+    display: flex;
+   
+}
+.home :nth-child(1){
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+body{
+    background-image: url('../assets/images/page2.png');
+    background-repeat: no-repeat; 
+    background-size:cover;/* Prevents the image from repeating */
+}
+.home__img img{
+  height: 145vh;
+  width: 120%;
+    position: absolute;
+    
+}
