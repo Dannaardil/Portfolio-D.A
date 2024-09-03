@@ -5,3 +5,11 @@
     --color-beige: #F5EFE8;
     --color-white: #FFFFFF;
 }
+
+:root {
+    --color-deep-space: #0A0E17;
+    --color-cosmic-blue: #1E3A5F;
+    --color-nebula-purple: #4A3E78;
+    --color-starlight-blue: #7AA2F7;
+    --color-moon-glow: #D0D7E3;
+  }
