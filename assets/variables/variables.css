@@ -13,3 +13,27 @@
     --color-starlight-blue: #7AA2F7;
     --color-moon-glow: #D0D7E3;
   }
+
+  :root {
+    --color-light-pink: #FADADD;
+    --color-pink: #F4A1A3;
+    --color-dark-pink: #E78F92;
+    --color-deep-pink: #CF6C82;
+    --color-white: #FFFFFF;
+}
+:root {
+    --color-light-pink: #FCE4EC;
+    --color-pink: #F48FB1;
+    --color-coral: #FF6F61;
+    --color-deep-pink: #C2185B;
+    --color-dark-gray: #424242;
+    --color-white: #FFFFFF;
+}
+:root {
+    --color-dark-bg: #121212;  /* Very dark gray */
+    --color-dark-gray: #1E1E1E;  /* Dark gray */
+    --color-light-pink: #FCE4EC;  /* Light pink */
+    --color-pink: #F48FB1;  /* Pink */
+    --color-coral: #FF6F61;  /* Coral */
+    --color-white: #FFFFFF;  /* White */
+}
