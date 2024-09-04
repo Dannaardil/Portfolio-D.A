@@ -830,7 +830,37 @@ color: var(--color-navy)
 
 }
 
+.services__list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 85rem;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
 
+.service__item{
+  text-align: center;
+  padding: 2rem;
+ background-color: var(--color-teal);
+  transition: 0.3s ease-in-out;
+  border-radius: 2rem;
+}
+
+.service__item h3{
+  font-size: 3rem;
+} 
+.service__item i{
+  font-size: 3rem;
+}
+.service__item p{
+  font-size: 1.2rem;
+}
+.service__item:hover{
+  background-color: var(--color-beige);
+  transform: scale(1.05);
+  color: var(--color-navy)
+}
 
   
 
@@ -866,11 +896,18 @@ color: var(--color-navy)
 }
 .contact{
   background-color: var(--color-navy);
+
+}
+.contact i:hover{
+  transition: 0.5s ease-in-out;;
+  color: #16213e;
+
 }
 .social{
   display: flex;
   align-items: center;
-justify-content: space-around;
+  justify-content: center;
+gap: 15rem;
   margin-top: 2rem;
   font-size: 3rem;
 }
