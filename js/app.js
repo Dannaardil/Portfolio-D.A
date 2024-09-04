@@ -120,3 +120,23 @@ document.addEventListener('DOMContentLoaded', () => {
   // Fade in social icons
   
 });
+
+let lastX = 0;
+let lastY = 0;
+
+document.addEventListener("mousemove", parallax);
+
+function parallax(e) {
+  if (lastX !== e.pageX || lastY !== e.pageY) {
+    requestAnimationFrame(() => {
+      document.querySelectorAll('.layer').forEach(layer => {
+        const speed = layer.getAttribute('data-speed');
+        const x = (window.innerWidth - e.pageX * speed) / 100;
+        const y = (window.innerHeight - e.pageY * speed) / 100;
+        layer.style.transform = `translateX(${x}px) translateY(${y}px)`;
+      });
+    });
+    lastX = e.pageX;
+    lastY = e.pageY;
+  }
+}
