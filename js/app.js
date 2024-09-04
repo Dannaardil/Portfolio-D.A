@@ -117,6 +117,36 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  gsap.from('.about__text-container2', {
+    scrollTrigger: {
+      trigger: '.mision__vision',
+      start: 'top 60%',
+      end: 'top 20%',
+      scrub: 1,
+    },
+    opacity: 0,
+    x: 100,
+    filter: 'blur(10px)',
+    duration: 1,
+    onComplete: () => {
+      gsap.to('.about__text-container2', {duration: 0.5, filter: 'blur(0px)'});
+    }
+  });
+  gsap.from('.about__text-container1', {
+    scrollTrigger: {
+      trigger: '.mision__vision',
+      start: 'top 60%',
+      end: 'top 20%',
+      scrub: 1,
+    },
+    opacity: 0,
+    x: -90,
+    filter: 'blur(10px)',
+    duration: 1,
+    onComplete: () => {
+      gsap.to('.about__text-container2', {duration: 0.5, filter: 'blur(0px)'});
+    }
+  });
   // Fade in social icons
   
 });

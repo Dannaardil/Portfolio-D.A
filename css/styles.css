@@ -316,7 +316,28 @@ h2 {
   padding: 2rem;
   border-radius: 10px;
 }
+.about__text-container1 {
+  width: 40rem;
+  height: 35rem;
+  flex: 1;
+  background-color: #16213e;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.about__text-container2{
+  width: 40rem;
+  height: 35rem;
+  flex: 1;
+  background-color: #16213e;
+  padding: 2rem;
+  border-radius: 2rem;
+  
+}
 
+.about__text-container2 h2{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
 .about__text-container h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -392,8 +413,28 @@ h2 {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
+.mision__vision{
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: row;
+  gap:3rem;
+}
+.about__text-container1 {
+ 
+  overflow: hidden;
+  border-radius: 2rem;
+  position: relative;
+  z-index: 2;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
 
-.about__text-container h2 {
+.about__text-container h2, .about__text-container1 h2, .about__text-container2 h2 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  text-align:center;
+}
+.about__text-container1 h2 {
   font-size: 4rem;
   margin-bottom: 1rem;
   text-align:center;
@@ -402,6 +443,18 @@ h2 {
   text-align: center;
   font-size: 2rem;
   font-weight: 200;
+}
+.about__text-container2 p{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 200;
+
+}
+.about__text-container1 p{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 200;
+
 }
 
 .social-icons {
@@ -745,12 +798,14 @@ footer a{
 
   text-decoration: none;
   color: rgba(255, 255, 255, 0.329);
-  font-size: 5em;
+  font-size: 4em;
 }
 
 footer  :nth-child(1){
   color: var(--color-sky-blue);
   transition: 0.3s  ease-in-out;
+
+ 
 
 }
 /* footer a:hover{
@@ -762,6 +817,7 @@ footer :nth-child(2){
   color: var(--color-sky-blue);
   animation: animateW 4s ease-in-out infinite;
   transition: 0.3s  ease-in-out;
+
 
 
 }
