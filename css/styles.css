@@ -3,6 +3,8 @@
 @import url('../assets/variables/variables.css');
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('../assets/variables/variables.css');
+
 *{
     padding: 0;
     margin: 0;
@@ -128,7 +130,7 @@ a{
  }
 
  .about{
-  height: 100vh;
+  height: 100%
  }
 
 
@@ -287,7 +289,7 @@ h2 {
   object-fit: cover;
 }
 .about {
-  height: 100vh;
+  height: 100%;
   background-color: #1a1a2e;
   display: flex;
   flex-direction: column;
@@ -342,6 +344,7 @@ h2 {
   overflow: hidden;
   padding-bottom: 3rem;
   z-index: 2;
+  gap:7rem
 
   
 
@@ -800,5 +803,19 @@ color: var(--color-navy)
   height: 90%;
   object-fit: cover;
   filter: blur(5px)
+
+}
+.contact{
+  background-color: var(--color-navy);
+}
+.social{
+  display: flex;
+  align-items: center;
+justify-content: space-around;
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+.social i{
+  color: var(--color-teal)
 
 }
