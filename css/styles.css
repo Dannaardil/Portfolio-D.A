@@ -875,3 +875,37 @@ justify-content: space-around;
   color: var(--color-teal)
 
 }
+.certification__list{
+  display: flex;
+  gap:5rem;
+
+  padding:1rem;
+  overflow-x:scroll ;
+}
+.certification__list h4{
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--color-sky-blue);
+  font-weight: 400;
+}
+
+.certification__item {
+  display: flex;
+  flex-direction: column;;
+  align-items: center;
+}
+
+.certification__item img{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: 40rem;
+  height: 42rem;
+  border-radius: 2rem;
+}
+
+.certification__item i{
+  color: white;
+  margin-top: 1rem;
+  font-size: 4rem;
+  
+}
